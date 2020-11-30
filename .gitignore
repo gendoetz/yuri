@@ -44,7 +44,7 @@
 *.pdb
 
 bin/*
-meta/*
+data/meta/*
 
 # Kernel Module Compile Results
 *.mod*
@@ -54,3 +54,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+*.lua
+
+
+/build
+
+# Added by cargo
+
+/target

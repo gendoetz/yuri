@@ -1,5 +1,7 @@
 #pragma once
 
+#include <stdint.h>
+
 #define DIFF_TICK(a, b) ((int)((a) - (b)))
 #define INVALID_TIMER -1
 
